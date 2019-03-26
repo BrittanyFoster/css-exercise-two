@@ -1,6 +1,7 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: grey;
+  color: black;
+  font-size: 16px;
 }
 
 nav {
@@ -49,4 +50,20 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+  line-height: 1.5;
+}
+.article-header {
+  font-size: 30px;
+  font-weight: bold;
+}
+.subheader {
+  font-size: 20px;
+}
+.navbar-link {
+  color: white;
+  text-decoration: none;
+}
+.navbar-link:hover{
+  color: pink;
+  font-size: 20px;
 }
